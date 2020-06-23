@@ -183,9 +183,9 @@ static void prvSetupHardware( void )
     UARTConfigSet( UART0_BASE, mainBAUD_RATE, UART_CONFIG_WLEN_8 | UART_CONFIG_PAR_NONE | UART_CONFIG_STOP_ONE );
 
     /* Initialise the LCD> */
-    OSRAMInit(false);
-    OSRAMStringDraw("www.FreeRTOS.org", 0, 0);
-    OSRAMStringDraw("LM3S811 demo", 16, 1);
+    // OSRAMInit(false);
+    // OSRAMStringDraw("www.FreeRTOS.org", 0, 0);
+    // OSRAMStringDraw("LM3S811 demo", 16, 1);
 }
 /*-----------------------------------------------------------*/
 
