@@ -1,0 +1,2 @@
+add-symbol-file gcc/RTOSDemo.axf
+target remote localhost:1234
