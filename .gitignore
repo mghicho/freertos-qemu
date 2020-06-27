@@ -1,0 +1,5 @@
+*.swp
+*.swo
+.clangd/
+CORTEX_LM3S811_GCC/compile_commands.json
+CORTEX_LM3S811_GCC/gcc/
